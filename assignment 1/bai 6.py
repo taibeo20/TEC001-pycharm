@@ -1,0 +1,11 @@
+talents = float(input("Enter talents: "))
+pounds = float(input("Enter pounds: "))
+lots = float(input("Enter lots: "))
+gram_per_lot = 13.3
+gram_per_pound = gram_per_lot * 32
+gram_per_talent = gram_per_pound * 20
+total_gram = lots * gram_per_lot + pounds *  gram_per_pound + talents * gram_per_talent
+kilograms = int(total_gram / 1000)
+grams = (total_gram % 1000)
+print(f"kilograms = {kilograms}")
+print(f"grams = {grams:.2f}")
