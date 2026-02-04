@@ -1,5 +1,5 @@
 def check_hemoglobin():
-    sex = input("Enter your biological sex (male/female): ").lower().strip()
+    sex = input("Enter your biological sex (male/female): ").lower()
     try:
         hg_value = float(input("Enter your hemoglobin value (g/l): "))
 
