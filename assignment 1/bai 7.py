@@ -1,4 +1,4 @@
-# Bài 7
+
 import random
 
 digit1 = random.randint(0, 9)
