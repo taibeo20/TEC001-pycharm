@@ -1,0 +1,14 @@
+[
+  {
+    "icao": "LFLL",
+    "name": "Lyon Saint-Exupery Airport",
+    "city": "Lyon",
+    "country": "FR"
+  },
+  {
+    "icao": "VVNB",
+    "name": "Noi Bai International Airport",
+    "city": "Hanoi",
+    "country": "VN"
+  }
+]
